@@ -11,11 +11,9 @@ const categorys=[
         name: 'kitchen',
         totalImages: 3,
         type:[
-            'sintered',
-            'granite',
             'quartz',
-            'syntheticMarble',
-            'porcelainKitchen'
+            'granite',
+            'marble'
         ],
         video: 0
     },
@@ -30,6 +28,7 @@ const categorys=[
         type: [
             'ceramic',
             'porcelainFloor',
+            'tecnicalPorcelainFloor',
             'wood',
             'stone',
             'laminatedFloor',
@@ -171,19 +170,18 @@ const selectCategory = ref(categorys[0]);
             
             "kitchen": "Kitchen",
             "counter": "Counter",
-            "sintered": "Sintered stone",
             "granite": "Granite",
             "quartz": "Quartz",
-            "syntheticMarble": "Synthetic marble",
-            "porcelainKitchen": "Porcelain",
+            "marble": "Marble",
             
             "floor": "Floor",
-            "laminatedFloor": "Laminated",
+            "laminatedFloor": "Laminate floor",
             "porcelainFloor": "Porcelain",
             "ceramic": "Ceramic",
-            "wood": "Wood",
-            "stone": "Stone",
-            "vinylFloor": "vinyl Floor",
+            "technicalPorcelainFloor": "Technical porcelain",
+            "wood": "Natural wood",
+            "stone": "Natural stone",
+            "vinylFloor": "Vinyl floor",
 
             "fence": "Fence",
             "screen": "Screen",
@@ -194,17 +192,16 @@ const selectCategory = ref(categorys[0]);
 
             "kitchen": "Cocina",
             "counter": "Encimera",
-            "sintered": "Piedra sinterizada",
             "granite": "Granito",
             "quartz": "Cuarzo",
-            "syntheticMarble": "Mármol sintético",
-            "porcelainKitchen": "Porcelanato",
+            "marble": "Mármol",
 
             "floor": "Piso",
-            "laminatedFloor": "Laminado",
+            "laminatedFloor": "Piso laminado",
             "porcelainFloor": "Porcelanato",
             "ceramic": "Cerámica",
-            "wood": "Madera",
+            "tecnicalPorcelainFloor": "Porcelanato técnico",
+            "wood": "Madera natural",
             "stone": "Piedra natural",
             "vinylFloor": "Piso vinílico",
 
