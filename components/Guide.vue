@@ -3,10 +3,6 @@ const { t } = useI18n({useScope: 'local'})
 
 const tips=[
                 {
-                    title: 'quote',
-                    icon: 'mdi-currency-usd-off'
-                },
-                {
                     title: 'paintwork',
                     icon: 'mdi-format-paint'
                 },
@@ -38,6 +34,12 @@ const tips=[
 </script>
 
 <template>
+    <h3
+        class="text-white text-center my-12"
+    >
+        {{ t('quote') }}
+    </h3>
+
     <v-card
         color="secondary"
         class="pa-2 my-sm-9 my-md-1 my-lg-5 rounded-xl elevation-16 text-white"
@@ -72,7 +74,7 @@ const tips=[
             "bathroom": "Bathroom",
             "electricity": "Electricity",
             "airConditioner": "Air Conditioner",
-            "quote": "Estimated cost",
+            "quote": "Make your budgets for free",
             "floor": "Floor",
             "plumbing": "Plumbing",
             "fence": "Fence"
@@ -82,7 +84,7 @@ const tips=[
             "bathroom": "Baños",
             "electricity": "Electricidad",
             "airConditioner": "Aire Acondicionado",
-            "quote": "Costo estimado",
+            "quote": "Realiza tus presupuestos gratis",
             "floor": "Piso",
             "plumbing": "Plomeria",
             "fence": "Cercado"

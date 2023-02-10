@@ -28,11 +28,11 @@ const categorys=[
         name: 'floor',
         totalImages: 4,
         type: [
-            'laminatedFloor',
-            'porcelainFloor',
             'ceramic',
+            'porcelainFloor',
             'wood',
             'stone',
+            'laminatedFloor',
             'vinylFloor'
         ],
         video: 0
@@ -71,9 +71,20 @@ const selectCategory = ref(categorys[0]);
         v-if="selectCategory.name != '' " 
         class="text-primary"
     >
-
         <div
-            class="my-6 text-center"
+            v-if="selectCategory.name == 'kitchen'"
+            class="d-flex justify-center"
+        >
+            <v-chip
+                color="grey-lighten-5"
+                prepend-icon="mdi-home"
+            >
+                {{ t('counter') }}
+            </v-chip>
+        </div>
+    
+        <div
+            class="mt-2 mb-6 text-center"
             v-if="selectCategory.type"
         >
             <v-chip
@@ -91,7 +102,7 @@ const selectCategory = ref(categorys[0]);
             v-if="selectCategory.totalImages >= 1"
         >
             <v-row
-                class="text-center"
+                class="text-center mt-4"
                 justify="center"
                 align="center"
             >
@@ -159,6 +170,7 @@ const selectCategory = ref(categorys[0]);
             "bathroom": "Bathroom",
             
             "kitchen": "Kitchen",
+            "counter": "Counter",
             "sintered": "Sintered stone",
             "granite": "Granite",
             "quartz": "Quartz",
@@ -181,6 +193,7 @@ const selectCategory = ref(categorys[0]);
             "bathroom": "Baño",
 
             "kitchen": "Cocina",
+            "counter": "Encimera",
             "sintered": "Piedra sinterizada",
             "granite": "Granito",
             "quartz": "Cuarzo",

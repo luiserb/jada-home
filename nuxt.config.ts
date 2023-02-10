@@ -53,8 +53,13 @@ export default defineNuxtConfig({
             script: [],
             link: [
                 { 
-                rel: 'stylesheet', 
-                href: 'https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css'
+                    rel: 'icon',
+                    type: 'image/png',
+                    href: '/jada-home/favicon.ico'
+                },
+                { 
+                    rel: 'stylesheet', 
+                    href: 'https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css'
                 }
             ]
         },

@@ -31,16 +31,14 @@ const socialLinks = [
       color="primary"
     >
 
-      <ul class="d-flex text-secondary">
-        <li
-          v-for="lenguaje in availableLocales"
-          :key="lenguaje"
-          @click.prevent.stop="setLocale(lenguaje.code)"
-          class="text-subtitle-2"
-        >
-          {{lenguaje.name}}
-        </li>
-      </ul>
+      <v-img
+        v-for="lenguaje in availableLocales"
+        :key="lenguaje"
+        @click.prevent.stop="setLocale(lenguaje.code)"
+        width="32px"
+        height="32px"
+        :src="`img/${lenguaje.code}.png`"
+      ></v-img>
         
       <v-row 
         class="my-3"
@@ -69,7 +67,7 @@ const socialLinks = [
             color="secondary"
           >
               <v-icon start icon="mdi-phone"></v-icon>
-              +57 321 3805228
+              +1 321 3805228
           </v-chip>
        </v-col>
         

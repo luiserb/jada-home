@@ -41,6 +41,7 @@ function toLink(link){
                     lg="6"
                 >
                     <v-img
+                        class="mb-7"
                         height="120px"
                         src="img/logo.png"
                         alt="JADA Home Improvement LLC Logo"
@@ -60,20 +61,20 @@ function toLink(link){
                     </v-img>
                     
                     <h1 
-                        class="text-h3 text-sm-h2 text-md-h1 my-2 text-lg-h1 text-white mb-4 my-sm-5 font-weight-bold"
+                        class="text-h3 text-sm-h2 text-md-h1 my-8 text-lg-h1 text-white mb-4 my-sm-5 font-weight-bold"
                     >
                         {{ t('title') }}
                     </h1>
 
                     <p 
-                        class="my-2 my-sm-12 text-white text-subtitle-2 text-sm-subtitle-1 text-sm-h6"
+                        class="my-8 my-sm-12 text-white text-subtitle-2 text-sm-subtitle-1 text-sm-h6"
                     >
                         {{ t('subtitle') }}
                     </p>
 
                     <v-btn
                         color="green"
-                        class="rounded-lg mt-3 elevation-12"
+                        class="rounded-lg mt-5 elevation-12"
                         prepend-icon="mdi-whatsapp"
                         @click="toLink('https://api.whatsapp.com/send?phone='+ t('phone'))"
                     >
@@ -81,10 +82,10 @@ function toLink(link){
                     </v-btn>
 
                     <div
-                        class="mt-5"
+                        class="mt-7 mt-sm-10"
                     >
                         <v-btn
-                            class="mx-5 my-8"
+                            class="mx-5 mt-6 mt-sm-10"
                             v-for="link in links"
                             :key="link"
                             icon
@@ -149,18 +150,18 @@ function toLink(link){
 <i18n>
     {
         "en": {
-            "title": "We build the home of your dreams",
+            "title": "We build and design the home of your dreams",
             "subtitle": "We are the leading company in remodeling and residential and commercial construction",
             "contactUs": "Contact us",
             "aboutUsContent": "We are the leading company in residential and commercial remodeling and construction, chosen for our modern designs that we develop with highly qualified personnel, optimizing costs to offer different options to clients. Our mission is to maintain high quality standards with customer service, contributing to the development of the country and achieving high levels of evolution in interior and exterior remodeling",
             "phone": "14073648272"
         },
         "es": {
-            "title": "Contruimos el hogar de tus sueños",
+            "title": "Construimos y diseñamos el hogar de tus sueños",
             "subtitle": "Somos la compañía lider en remodelación y construcción residencial y comercial",
             "contactUs": "Contactanos",
             "aboutUsContent": "Somos la empresa líder en remodelación y construcción residencial y comercial, elegida por nuestros diseños modernos que desarrollamos con personal altamente calificado, optimizando costos para ofrecer diferentes opciones a los clientes. Nuestra mision es mantener altos estándares de calidad con el servicio al cliente contribuyendo al desarrollo del país y logrando altos niveles de evolución en remodelaciones de interiores y exteriores",
-            "phone": "573213805228"
+            "phone": "13213805228"
         }
     }
 </i18n>
