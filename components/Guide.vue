@@ -24,7 +24,7 @@ const tips=[
                 },
                 {
                     title: 'fence',
-                    icon: 'mdi-shield-home'
+                    icon: 'mdi:fence'
                 },
                 {
                     title: 'airConditioner',
@@ -74,7 +74,7 @@ const tips=[
             "bathroom": "Bathroom",
             "electricity": "Electricity",
             "airConditioner": "Air Conditioner",
-            "quote": "Make your budgets for free",
+            "quote": "Make your estimate at no cost",
             "floor": "Floor",
             "plumbing": "Plumbing",
             "fence": "Fence"
@@ -84,7 +84,7 @@ const tips=[
             "bathroom": "Baños",
             "electricity": "Electricidad",
             "airConditioner": "Aire Acondicionado",
-            "quote": "Realiza tus presupuestos gratis",
+            "quote": "Haga su estimado sin costo alguno",
             "floor": "Piso",
             "plumbing": "Plomeria",
             "fence": "Cercado"
