@@ -9,7 +9,7 @@ function showPreloader(){
         preloader.value = false;
         hiden.value = true;
         main.classList.remove('preloader-active')
-    }, 3000)
+    }, 4000)
 }
 onMounted(() =>{
     showPreloader()
