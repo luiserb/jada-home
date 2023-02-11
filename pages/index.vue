@@ -69,7 +69,7 @@ function toLink(link){
                     <p 
                         class="my-8 my-sm-12 text-white text-subtitle-2 text-sm-subtitle-1 text-sm-h6"
                     >
-                        {{ t('subtitle') }}
+                        {{ t('aboutUsContent') }}
                     </p>
 
                     <v-btn
@@ -102,24 +102,6 @@ function toLink(link){
     <section
         class="pa-10"
     >
-        <v-container>
-            <v-row
-                class="text-center"
-                justify="center"
-                align="center"
-            >
-                <v-col
-                    sm="8"
-                    lg="6"
-                    xl="4"
-                >
-                    <p class="text-secondary text-subtitle-2 text-sm-subtitle-1">
-                        {{ t('aboutUsContent') }}
-                    </p>
-                </v-col>
-            </v-row>
-        </v-container>
-
         <v-row
             justify="center"
             align="center"
