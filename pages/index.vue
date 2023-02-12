@@ -102,6 +102,20 @@ function toLink(link){
     <section
         class="pa-10"
     >
+            <v-container>
+            <v-row
+                class="text-center"
+                justify="center"
+                align="center"
+            >
+                <v-col
+                    sm="8"
+                    lg="6"
+                    xl="4"
+                >
+                </v-col>
+            </v-row>
+        </v-container>
         <v-row
             justify="center"
             align="center"
