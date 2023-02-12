@@ -1,0 +1,1 @@
+.image__content{height:280px;width:280px}.image__content,.video__content{-o-object-fit:cover;object-fit:cover}.video__content{height:100%;width:100%}@media (min-width:600px){.video__content{width:400px}}.home__contain{height:calc(100vh - var(--v-layout-top))}section{background-color:rgba(var(--v-theme-primary))}
