@@ -24,7 +24,7 @@ const tips=[
                 },
                 {
                     title: 'fence',
-                    icon: 'mdi-shield-home'
+                    icon: 'mdi-fence'
                 },
                 {
                     title: 'airConditioner',
