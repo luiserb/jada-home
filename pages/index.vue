@@ -14,7 +14,7 @@ const links = [
     {
         name: 'Facebook',
         icon: 'mdi-facebook',
-        link: 'https://www.facebook.com/people/JADA-home-improvement-LLC/100089202805864/?mibextid=ZbWKwL'
+        link: 'https://www.facebook.com/profile.php?id=100090805681500&mibextid=LQQJ4d'
     }
 ]
 
